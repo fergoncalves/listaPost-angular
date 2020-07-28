@@ -1,0 +1,43 @@
+.page-container {
+
+ 
+    background-color: #f2eae3;
+
+}
+.page-title {
+    background-color: #45237a;
+    padding: 30px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    color: #ebf5ee;
+    
+    }
+
+.post-card {
+
+    margin-bottom: 30px;
+    border-width: 4px;
+    border-color: #1e3248;
+    border-style: solid;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    max-width: 700px;
+    margin: auto;
+    width: 90%;
+    padding-top: 140px;
+
+}
+
+.post-title {
+    margin-bottom: 15px;
+
+}
+
+.post-content{
+
+    color: #0a0a0a;
+}
