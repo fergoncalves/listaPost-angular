@@ -1,14 +1,21 @@
+.title-list {
+    font-size: 2.488em;
+    color: white;
+    letter-spacing: 0.2em;
+}
+
 .page-container {
 
- 
-    background-color: #f2eae3;
+    max-width: 700px;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
 
 }
 .page-title {
-    background-color: #45237a;
+    background-color: #42213d;
     padding: 30px 0px;
     text-align: center;
-    position: fixed;
     width: 100%;
     color: #ebf5ee;
     
@@ -18,26 +25,36 @@
 
     margin-bottom: 30px;
     border-width: 4px;
-    border-color: #1e3248;
+    border-color: #d32240;
     border-style: solid;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-
-    max-width: 700px;
-    margin: auto;
-    width: 90%;
-    padding-top: 140px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 12px rgba(0,0,0,0.12), 0 1px 9px rgba(0,0,0,0.24);
+    
 
 }
 
 .post-title {
     margin-bottom: 15px;
+    font-size: 1.728em;
 
 }
 
 .post-content{
 
     color: #0a0a0a;
+}
+
+.post-link {
+    color: #1c415e;
+}
+
+.site-footer{
+    margin: auto;
+    font-size: 0.833em;
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 35px;
 }

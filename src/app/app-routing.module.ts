@@ -7,6 +7,7 @@ import { SinglePostComponent } from 'src/app/single-post/single-post.component';
 
 const routes: Routes = [
   {path: 'list', component: PostListComponent}, // definindo um link para o componente de ver listas
+  {path: '', redirectTo: 'list', pathMatch: 'prefix'},
   {path: 'post/:id', component: SinglePostComponent} // definindo um link para o componente de ver um unico post, recebendo o id por parâmetro
 ];
 
